@@ -9,7 +9,7 @@ class MyDict:
         self.value = value
 
     def get_item(self):
-        dict[self.key] = self.value
+        self.dict[self.key] = self.value
 
 
 p1 = MyDict("apple", 15)
